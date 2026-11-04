@@ -1,0 +1,117 @@
+{
+  "generated": "2026-11-04 02:22 UTC",
+  "baseline": [
+    "2023-06-01",
+    "2023-09-15"
+  ],
+  "recent": [
+    "2025-06-01",
+    "2025-09-15"
+  ],
+  "parcels": [
+    {
+      "id": "demo-a",
+      "name": "Demo A: wooded tract cleared 2024-25 (hypothetical boundary)",
+      "tile": "18SUJ",
+      "status": "alert",
+      "coverage": 1.0,
+      "loss_ha": 43.95,
+      "parcel_ha": 212.2,
+      "patches": [
+        {
+          "area_ha": 43.67,
+          "mean_drop": -0.62,
+          "lon": -76.753373,
+          "lat": 38.87052
+        },
+        {
+          "area_ha": 0.28,
+          "mean_drop": -0.4,
+          "lon": -76.760595,
+          "lat": 38.876637
+        }
+      ],
+      "baseline_looks": 13,
+      "recent_looks": 13,
+      "image": "demo-a.png",
+      "before_scene": "S2B_18SUJ_20230808_0_L2A",
+      "after_scene": "S2C_18SUJ_20250822_0_L2A"
+    },
+    {
+      "id": "demo-b",
+      "name": "Demo B: mature forest, expected no change (hypothetical boundary)",
+      "tile": "18SUJ",
+      "status": "no_change",
+      "coverage": 1.0,
+      "loss_ha": 0,
+      "parcel_ha": 144.1,
+      "patches": [],
+      "baseline_looks": 14,
+      "recent_looks": 12,
+      "image": "demo-b.png",
+      "before_scene": "S2A_18SUJ_20230902_0_L2A",
+      "after_scene": "S2C_18SUJ_20250822_0_L2A"
+    },
+    {
+      "id": "demo-c",
+      "name": "Demo C: fields beside an industrial park (hypothetical boundary)",
+      "tile": "18SVJ",
+      "status": "alert",
+      "coverage": 1.0,
+      "loss_ha": 6.15,
+      "parcel_ha": 249.1,
+      "patches": [
+        {
+          "area_ha": 4.42,
+          "mean_drop": -0.52,
+          "lon": -76.052468,
+          "lat": 39.229383
+        },
+        {
+          "area_ha": 0.52,
+          "mean_drop": -0.54,
+          "lon": -76.066205,
+          "lat": 39.225922
+        },
+        {
+          "area_ha": 0.49,
+          "mean_drop": -0.57,
+          "lon": -76.053333,
+          "lat": 39.225878
+        },
+        {
+          "area_ha": 0.46,
+          "mean_drop": -0.32,
+          "lon": -76.062043,
+          "lat": 39.232661
+        },
+        {
+          "area_ha": 0.26,
+          "mean_drop": -0.52,
+          "lon": -76.052601,
+          "lat": 39.225393
+        }
+      ],
+      "baseline_looks": 11,
+      "recent_looks": 16,
+      "image": "demo-c.png",
+      "before_scene": "S2A_18SVJ_20230813_0_L2A",
+      "after_scene": "S2B_18SVJ_20250728_0_L2A"
+    },
+    {
+      "id": "demo-d",
+      "name": "Demo D: farmland with crop rotation, expected no change (hypothetical boundary)",
+      "tile": "18TVK",
+      "status": "no_change",
+      "coverage": 1.0,
+      "loss_ha": 0,
+      "parcel_ha": 227.2,
+      "patches": [],
+      "baseline_looks": 11,
+      "recent_looks": 15,
+      "image": "demo-d.png",
+      "before_scene": "S2A_18TVK_20230724_0_L2A",
+      "after_scene": "S2C_18TVK_20250822_0_L2A"
+    }
+  ]
+}
