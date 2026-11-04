@@ -1,0 +1,47 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Parcel change report</title>
+<style>
+body{font:15px/1.5 system-ui,sans-serif;max-width:1000px;margin:24px auto;padding:0 16px;color:#1d1d1b;background:#fff}
+table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #ddd;padding:6px 8px;text-align:left}
+tr.alert td:nth-child(2){color:#b3261e;font-weight:600}tr.no_data td:nth-child(2){color:#8a6d00}
+img{max-width:100%;height:auto;border:1px solid #ddd}.meta,.legend,footer{color:#666;font-size:13px}
+section{margin-top:32px}
+</style></head><body>
+<h1>Parcel change report</h1>
+<p>Baseline 2023-06-01 to 2023-09-15 compared with 2025-06-01 to 2025-09-15.
+Generated 2026-11-04 02:22 UTC.</p>
+<table><tr><th>Parcel</th><th>Result</th><th>Loss (ha)</th><th>Parcel (ha)</th><th>Observed</th></tr><tr class='alert'><td>Demo A: wooded tract cleared 2024-25 (hypothetical boundary)</td><td>Possible vegetation loss</td><td>43.95</td><td>212.2</td><td>100%</td></tr><tr class='no_change'><td>Demo B: mature forest, expected no change (hypothetical boundary)</td><td>No change found</td><td>0</td><td>144.1</td><td>100%</td></tr><tr class='alert'><td>Demo C: fields beside an industrial park (hypothetical boundary)</td><td>Possible vegetation loss</td><td>6.15</td><td>249.1</td><td>100%</td></tr><tr class='no_change'><td>Demo D: farmland with crop rotation, expected no change (hypothetical boundary)</td><td>No change found</td><td>0</td><td>227.2</td><td>100%</td></tr></table>
+
+<section><h2>Demo A: wooded tract cleared 2024-25 (hypothetical boundary)</h2>
+<p class='meta'>Tile 18SUJ · before image S2B_18SUJ_20230808_0_L2A · after image S2C_18SUJ_20250822_0_L2A
+· 13 baseline and 13 recent scenes</p>
+<img src='demo-a.png' alt='Before, after and change for Demo A: wooded tract cleared 2024-25 (hypothetical boundary)'>
+<p class='legend'>Left: before. Middle: after. Right: after, with possible loss in red. Yellow line: parcel boundary.</p>
+<ul><li>43.67 ha, greenness down 0.62, near <a href='https://www.openstreetmap.org/?mlat=38.87052&mlon=-76.75337#map=16/38.87052/-76.75337'>38.87052, -76.75337</a></li><li>0.28 ha, greenness down 0.40, near <a href='https://www.openstreetmap.org/?mlat=38.87664&mlon=-76.76059#map=16/38.87664/-76.76059'>38.87664, -76.76059</a></li></ul>
+</section>
+<section><h2>Demo B: mature forest, expected no change (hypothetical boundary)</h2>
+<p class='meta'>Tile 18SUJ · before image S2A_18SUJ_20230902_0_L2A · after image S2C_18SUJ_20250822_0_L2A
+· 14 baseline and 12 recent scenes</p>
+<img src='demo-b.png' alt='Before, after and change for Demo B: mature forest, expected no change (hypothetical boundary)'>
+<p class='legend'>Left: before. Middle: after. Right: after, with possible loss in red. Yellow line: parcel boundary.</p>
+
+</section>
+<section><h2>Demo C: fields beside an industrial park (hypothetical boundary)</h2>
+<p class='meta'>Tile 18SVJ · before image S2A_18SVJ_20230813_0_L2A · after image S2B_18SVJ_20250728_0_L2A
+· 11 baseline and 16 recent scenes</p>
+<img src='demo-c.png' alt='Before, after and change for Demo C: fields beside an industrial park (hypothetical boundary)'>
+<p class='legend'>Left: before. Middle: after. Right: after, with possible loss in red. Yellow line: parcel boundary.</p>
+<ul><li>4.42 ha, greenness down 0.52, near <a href='https://www.openstreetmap.org/?mlat=39.22938&mlon=-76.05247#map=16/39.22938/-76.05247'>39.22938, -76.05247</a></li><li>0.52 ha, greenness down 0.54, near <a href='https://www.openstreetmap.org/?mlat=39.22592&mlon=-76.06620#map=16/39.22592/-76.06620'>39.22592, -76.06620</a></li><li>0.49 ha, greenness down 0.57, near <a href='https://www.openstreetmap.org/?mlat=39.22588&mlon=-76.05333#map=16/39.22588/-76.05333'>39.22588, -76.05333</a></li><li>0.46 ha, greenness down 0.32, near <a href='https://www.openstreetmap.org/?mlat=39.23266&mlon=-76.06204#map=16/39.23266/-76.06204'>39.23266, -76.06204</a></li><li>0.26 ha, greenness down 0.52, near <a href='https://www.openstreetmap.org/?mlat=39.22539&mlon=-76.05260#map=16/39.22539/-76.05260'>39.22539, -76.05260</a></li></ul>
+</section>
+<section><h2>Demo D: farmland with crop rotation, expected no change (hypothetical boundary)</h2>
+<p class='meta'>Tile 18TVK · before image S2A_18TVK_20230724_0_L2A · after image S2C_18TVK_20250822_0_L2A
+· 11 baseline and 15 recent scenes</p>
+<img src='demo-d.png' alt='Before, after and change for Demo D: farmland with crop rotation, expected no change (hypothetical boundary)'>
+<p class='legend'>Left: before. Middle: after. Right: after, with possible loss in red. Yellow line: parcel boundary.</p>
+
+</section>
+<footer><p>Prototype. Flags are leads for a site visit or a closer look, not findings. Sentinel-2 pixels are 10 m,
+so small structures, selective cutting and changes under cloud can be missed, and farming or drought can cause false flags.</p>
+<p>Contains modified Copernicus Sentinel data 2025.</p></footer>
+</body></html>

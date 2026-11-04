@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-a",
+        "name": "Demo A: wooded tract cleared 2024-25 (hypothetical boundary)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.762,
+              38.877
+            ],
+            [
+              -76.747,
+              38.8775
+            ],
+            [
+              -76.7445,
+              38.87
+            ],
+            [
+              -76.748,
+              38.864
+            ],
+            [
+              -76.76,
+              38.8635
+            ],
+            [
+              -76.7635,
+              38.87
+            ],
+            [
+              -76.762,
+              38.877
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-b",
+        "name": "Demo B: mature forest, expected no change (hypothetical boundary)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.79,
+              39.055
+            ],
+            [
+              -76.775,
+              39.055
+            ],
+            [
+              -76.775,
+              39.045
+            ],
+            [
+              -76.79,
+              39.045
+            ],
+            [
+              -76.79,
+              39.055
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-c",
+        "name": "Demo C: fields beside an industrial park (hypothetical boundary)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.07,
+              39.238
+            ],
+            [
+              -76.05,
+              39.238
+            ],
+            [
+              -76.05,
+              39.225
+            ],
+            [
+              -76.07,
+              39.225
+            ],
+            [
+              -76.07,
+              39.238
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-d",
+        "name": "Demo D: farmland with crop rotation, expected no change (hypothetical boundary)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.13,
+              40.05
+            ],
+            [
+              -76.11,
+              40.05
+            ],
+            [
+              -76.11,
+              40.038
+            ],
+            [
+              -76.13,
+              40.038
+            ],
+            [
+              -76.13,
+              40.05
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
